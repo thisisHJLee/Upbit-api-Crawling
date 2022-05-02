@@ -21,7 +21,7 @@ num = 200 #최대
 querystring = {"count" : num,  # 지정한 개수의 데이터
                  "market" : "KRW-BTC",   # 비트코인 한화 가격
                  "to" : "2022-04-05 07:45:00"}    # 언제까지의 데이터를 가져오겠다
-
+                 
 
 response = requests.request("GET", url, params=querystring)
 
